@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("visitor_locations.csv")
+df = pd.read_parquet("visitor_locations.parquet")
 cols_to_keep = ["TIMESTAMP", "COUNTRY_NAME", "COUNTRY_CODE", "LATITUDE", "LONGITUDE"]
 
 df = df[cols_to_keep]

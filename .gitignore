@@ -1,4 +1,6 @@
 venv
 *.log
 *.csv
+*.parquet
+*.html
 !visitor_location_count.csv
